@@ -38,6 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +51,12 @@
       <updated>1649222594298</updated>
       <workItem from="1649222595322" duration="66000" />
       <workItem from="1649222875319" duration="15797000" />
-      <workItem from="1649302715977" duration="931000" />
+      <workItem from="1649302715977" duration="2229000" />
+      <workItem from="1649313846992" duration="386000" />
+      <workItem from="1649314368116" duration="663000" />
+      <workItem from="1649315105221" duration="2633000" />
+      <workItem from="1649318589845" duration="331000" />
+      <workItem from="1649319144259" duration="8587000" />
     </task>
     <servers />
   </component>
@@ -88,10 +94,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="475" y="270" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1649236742897" />
-    <state x="500" y="205" key="FileChooserDialogImpl" timestamp="1649222659588">
+    <state x="500" y="205" key="FileChooserDialogImpl" timestamp="1649318921299">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1649222659588" />
+    <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1649318921299" />
     <state x="537" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649235005463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

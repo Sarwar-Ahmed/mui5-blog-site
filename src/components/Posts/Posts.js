@@ -1,6 +1,18 @@
 import React, {useEffect, useState} from 'react';
-import {Button, Card, CardContent, CardMedia, Container, Typography, CardActions, Grid, Box, Pagination} from '@mui/material';
+import {
+    Button,
+    Card,
+    CardContent,
+    CardMedia,
+    Container,
+    Typography,
+    CardActions,
+    Grid,
+    Box,
+    Pagination
+} from '@mui/material';
 import './posts.css'
+import {Link} from "react-router-dom";
 
 const Posts = () => {
 
@@ -39,7 +51,9 @@ const Posts = () => {
                                     </CardContent>
                                     <CardActions>
                                         <Button size="small">Share</Button>
-                                        <Button size="small" to="/postdescription">Continue Reading</Button>
+                                        <Button size="small">
+                                            <Link to={`/postDescription/${post.id}`}>Continue Reading</Link>
+                                        </Button>
                                     </CardActions>
                                 </Card>
                             </Grid>

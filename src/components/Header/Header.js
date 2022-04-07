@@ -12,6 +12,7 @@ import {
     Tooltip,
     Toolbar
 } from '@mui/material';
+import {Link} from "react-router-dom";
 
 const pages = ['Technology', 'Design', 'Culture', 'Business', 'Politics', 'Opinion', 'Science', 'Health', 'Style', 'Travel'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -37,7 +38,7 @@ const Header = () => {
     };
 
     return (
-        <AppBar position="static" style={{ backgroundColor: '#4E3379'}}>
+        <AppBar position="sticky" style={{ backgroundColor: '#4E3379'}}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
@@ -46,7 +47,9 @@ const Header = () => {
                         component="div"
                         sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                     >
-                        LOGO
+                        <Button>
+                            <Link to="/" style={{ color: 'white' }}>LOGO</Link>
+                        </Button>
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -54,6 +57,7 @@ const Header = () => {
                             size="large"
                             aria-label="account of current user"
                             aria-controls="menu-appbar"
+
                             aria-haspopup="true"
                             onClick={handleOpenNavMenu}
                             color="inherit"
