@@ -39,7 +39,7 @@ const Posts = () => {
                                     </CardContent>
                                     <CardActions>
                                         <Button size="small">Share</Button>
-                                        <Button size="small">Learn More</Button>
+                                        <Button size="small" to="/postdescription">Continue Reading</Button>
                                     </CardActions>
                                 </Card>
                             </Grid>

@@ -35,7 +35,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -50,6 +50,7 @@
       <updated>1649222594298</updated>
       <workItem from="1649222595322" duration="66000" />
       <workItem from="1649222875319" duration="15797000" />
+      <workItem from="1649302715977" duration="931000" />
     </task>
     <servers />
   </component>
@@ -76,6 +77,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="584" y="329" key="#ESLint" timestamp="1649226431812">
