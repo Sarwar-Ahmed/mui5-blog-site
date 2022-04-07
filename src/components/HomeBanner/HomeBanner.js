@@ -26,7 +26,7 @@ const HomeBanner = () => {
                     backgroundColor: 'rgba(0,0,0,.3)',
                 }}
             />
-            <Grid container style={{ display: 'flex', justifyContent: 'center' }}>
+            <Grid container>
                 <Grid item sm={6}>
                     <Box
                         sx={{

@@ -14,7 +14,9 @@ const Posts = () => {
     return (
         <Container>
             <h1>Blog Posts</h1>
-
+            <Box my={4}>
+                <Pagination count={10} style={{ display: 'flex', justifyContent: 'center' }}/>
+            </Box>
             <Grid container spacing={2}>
 
                     {
